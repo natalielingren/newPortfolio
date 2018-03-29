@@ -1,0 +1,102 @@
+/* .about-me-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-me-flex-item{
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  margin-right:4rem;
+}
+
+.about-me-flex-item img{
+  width: auto;
+  max-height: 30rem;
+}
+
+.about-me-description{
+  position: absolute;
+  background-color: white;
+  z-index: 3;
+  top:25%;
+  width: 70%;
+  height: 30%;
+  left: 30%;
+  padding: 1rem;
+}
+
+.about-me-description h1{
+  font-family: 'Roboto';
+  font-size: 1rem;
+  color: black;
+}
+
+.about-me-description p{
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: 0.75rem;
+  color:black;
+} */
+
+.projects{
+  display: flex;
+}
+
+.landing-projects{
+  display:flex;
+  justify-content: space-around;
+}
+
+@media (max-width:39rem) {
+  .project-two-image-flex-item img{
+    width: auto;
+    max-height: 20rem;
+    max-width: 22.5rem;
+  }
+
+  .project-summary-two{
+    max-width: 17rem;
+    height: 50%;
+  }
+
+  .project-summary-two p{
+    font-size: .65rem;
+  }
+
+}
+
+@media (min-width:20rem) {
+
+h1.nav-logo{
+  font-size: 3rem;
+  transition: .5s;
+}
+
+.nav-flex{
+/* display: flex;
+flex-direction: column; */
+}
+
+
+}
+
+@media (min-width:30rem) {
+
+h1.nav-logo{
+  font-size: 4rem;
+    transition: .5s;
+}
+
+.nav-items{
+  max-width: 28rem;
+
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+}

@@ -1,0 +1,30 @@
+.project-one-description-flex-item{
+
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  margin-right:0rem;
+  margin-left:0rem;
+
+}
+
+/* .project-one-image-flex-item{
+  margin-top: 20%;
+  position: relative;
+  z-index: 2;
+  overflow: visible;
+  margin-right:4rem;
+
+
+}
+
+.project-one-image-flex-item img{
+  width: auto;
+  max-width:10rem;
+} */
+
+@media (min-with:42rem) {
+
+
+}
