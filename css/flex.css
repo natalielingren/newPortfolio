@@ -1,45 +1,4 @@
-/* .about-me-flex-container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 
-.about-me-flex-item{
-  margin-top: 10%;
-  position: relative;
-  z-index: 2;
-  overflow: visible;
-  margin-right:4rem;
-}
-
-.about-me-flex-item img{
-  width: auto;
-  max-height: 30rem;
-}
-
-.about-me-description{
-  position: absolute;
-  background-color: white;
-  z-index: 3;
-  top:25%;
-  width: 70%;
-  height: 30%;
-  left: 30%;
-  padding: 1rem;
-}
-
-.about-me-description h1{
-  font-family: 'Roboto';
-  font-size: 1rem;
-  color: black;
-}
-
-.about-me-description p{
-  font-family: 'Open Sans';
-  font-weight: 200;
-  font-size: 0.75rem;
-  color:black;
-} */
 
 .projects{
   display: flex;

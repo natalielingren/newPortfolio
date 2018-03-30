@@ -1,12 +1,32 @@
 .about-me{
 position: relative;
-margin-top: 10%;
+margin-top: 5%;
+margin-left: 1rem;
 }
 
 .about-me img{
   width: auto;
-  max-width: 20rem;
+  max-width: 18rem;
 
+}
+
+.about-me-description h1{
+  font-family: 'Roboto';
+  font-size: .5rem;
+  color: black;
+}
+
+.about-me-description a{
+  font-family: 'Roboto';
+  font-size: .25rem;
+  color: black;
+}
+
+.about-me-description p{
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: 0.25rem;
+  color:black;
 }
 
 .about-me-description{
@@ -17,38 +37,80 @@ margin-top: 10%;
   width: auto;
   min-width: 50%;
   max-width: 70%;
-  height: 90%;
-  left: 30%;
+  height: 124%;
+  left: 20%;
   right: 30%;
   padding: 1.5rem;
 }
 
-@media (min-width:30rem) {
+@media (min-width:27rem) {
   .about-me-description{
-    height: 60%;
-    max-width: 30rem;
+    height: 70%;
+    max-width: 15rem;
     margin-right: 4rem;
   }
 
+  .about-me{
+    margin: 1.25rem;
+  }
+
+  .about-me img{
+    width: auto;
+    max-width: 25rem;
+
+  }
+
+}
+
+@media (min-width:30rem) {
+  .about-me-description{
+    height: 90%;
+    max-width: 15rem;
+    margin-right: 4rem;
+  }
+
+  .about-me{
+    margin: 2rem;
   }
   .about-me img{
     width: auto;
-    max-width: 50rem;
+    max-width: 30rem;
 
+  }
+
+  .about-me-description h1{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: black;
+  }
+
+  .about-me-description p{
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 0.75rem;
+    color:black;
   }
 
 }
 
+@media (min-width:41rem) {
 
-.about-me-description h1{
-  font-family: 'Roboto';
-  font-size: 1rem;
-  color: black;
-}
+  .about-me{
+    margin: 3rem;
+  }
 
-.about-me-description p{
-  font-family: 'Open Sans';
-  font-weight: 200;
-  font-size: 0.75rem;
-  color:black;
+  .about-me img{
+    width: auto;
+    max-width: 35rem;
+
+  }
+
+  .about-me-description{
+    height: 60%;
+    max-width: 15rem;
+    top: 25%;
+    left: 35%;
+    margin-right: 4rem;
+  }
+
 }
