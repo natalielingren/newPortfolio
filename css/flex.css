@@ -9,7 +9,7 @@
   justify-content: space-around;
 }
 
-@media (max-width:39rem) {
+/* @media (max-width:39rem) {
   .project-two-image-flex-item img{
     width: auto;
     max-height: 20rem;
@@ -18,14 +18,14 @@
 
   .project-summary-two{
     max-width: 17rem;
-    height: 50%;
+    height: 100%;
   }
 
   .project-summary-two p{
     font-size: .65rem;
   }
 
-}
+} */
 
 @media (min-width:20rem) {
 

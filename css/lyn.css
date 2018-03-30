@@ -1,20 +1,7 @@
-/* @media (max-width:38rem) {
-  .project-one-description-flex-item img{
-    max-height: 10rem;
-  }
-
-} */
-
-.project-one-description-flex-item img{
-  width: auto;
-  max-width: 24rem;
-}
-
-@media (min-width:52rem) {
-  .project-one-description-flex-item img{
-    width: auto;
-    max-width: 25rem;
-  }
+.see-next h3{
+color: white;
+margin-left: 70%;
+top: 5%;
 
 }
 
@@ -26,5 +13,18 @@
   overflow: visible;
   margin-right:0rem;
   margin-left:0rem;
+
+}
+
+.project-one-description-flex-item img{
+  width: auto;
+  max-width: 24rem;
+}
+
+@media (min-width:52rem) {
+  .project-one-description-flex-item img{
+    width: auto;
+    max-width: 25rem;
+  }
 
 }
