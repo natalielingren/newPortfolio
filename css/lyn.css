@@ -1,13 +1,24 @@
 .see-next h3{
 color: white;
-margin-left: 70%;
+text-align: right;
+background-color: none;
+font-size: 0.45rem;
+padding-right: 2rem;
 top: 5%;
 
 }
 
+@media (min-width:25rem) {
+
+  .see-next h3{
+    font-size: 1rem;
+  }
+}
+
+
 .project-one-description-flex-item{
 
-  margin-top: 10%;
+  margin-top: 5%;
   position: relative;
   z-index: 2;
   overflow: visible;

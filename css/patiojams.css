@@ -1,13 +1,22 @@
 .see-next h3{
 color: white;
-margin-left: 70%;
+text-align: right;
+background-color: none;
+font-size: 0.45rem;
+padding-right: 2rem;
 top: 5%;
 
 }
 
+@media (min-width:25rem) {
+
+  .see-next h3{
+    font-size: 1rem;
+  }
+}
 .project-one-description-flex-item{
 
-  margin-top: 10%;
+  margin-top: 5%;
   position: relative;
   z-index: 2;
   overflow: visible;
@@ -34,33 +43,3 @@ top: 5%;
     max-width: 40rem;
   }
 }
-
-
-
-
-/* @media (max-width:38rem) {
-  .project-one-description-flex-item img{
-    max-height: 10rem;
-  }
-
-}
-
-.project-one-description-flex-item img{
-  width: auto;
-  max-height: 30rem;
-} */
-
-/* .project-one-image-flex-item{
-  margin-top: 20%;
-  position: relative;
-  z-index: 2;
-  overflow: visible;
-  margin-right:4rem;
-
-
-}
-
-.project-one-image-flex-item img{
-  width: auto;
-  max-width:10rem;
-} */

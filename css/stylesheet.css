@@ -202,9 +202,9 @@ p{
 
 .in-text-link{
   text-decoration: none;
-  padding: 1rem;
-  background-color: black;
-  color: rgb(255, 199, 0);
+  /* padding: 1rem; */
+  /* background-color: black; */
+  color: white;
   font-family: 'Open Sans';
   font-weight: 400;
 
@@ -212,7 +212,7 @@ p{
 
 .in-text-link:hover, .in-text-link:focus{
   text-decoration: none;
-  color: grey;
+  color: rgb(255, 199, 0);
 }
 
 .in-text-link-two{
