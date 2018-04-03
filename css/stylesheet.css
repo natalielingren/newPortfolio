@@ -1,5 +1,3 @@
-
-
 .project-content{
   background-color: white;
   padding-top: 1rem;
@@ -99,15 +97,31 @@
   align-items: center;
 }
 
-.name p{
+.name a{
   justify-content: space-around;
-  top:50%;
+  top:88%;
   left: 13%;
   z-index: 7;
   position: absolute;
   align-items: center;
+  font-size: 0.8rem;
   font-family: 'Open Sans';
   font-weight:200;
+  text-decoration: none;
+  color: black;
+}
+
+.name h2{
+  justify-content: space-around;
+  top:55%;
+  /* left: 13%; */
+  z-index: 7;
+  position: absolute;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: .9rem;
+  min-width: 4rem;
 }
 
 
@@ -116,7 +130,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  top:50%;
+  top:49%;
   /* justify-content: space-between; */
   background-color: white;
   min-width: 15rem;
@@ -124,16 +138,17 @@
   position: absolute;
   align-items: center;
   width: 50%;
-  height: 30%;
-
+  height: 33%;
+  padding-bottom: 1rem;
   padding-left:2rem;
   padding-right:2rem;
+
 
 }
 
 .nav-menu-item{
-  /* padding-top: 1rem; */
-  padding-bottom: 1.25rem;
+
+  padding-top: 2rem;
 
 }
 
@@ -153,9 +168,10 @@
   position: absolute;
   align-items: center;
   width: 50%;
-  height: 30%;
+  height: 23%;
   padding-left:2rem;
   padding-right:2rem;
+  padding-top: 1.5rem;
   /* min-width: 50%; */
   /* top:-20rem;
   padding: 4rem;
@@ -280,4 +296,26 @@ h4{
 section{
   background-color: white;
   padding: 1rem;
+}
+
+footer{
+  /* position: absolute;
+  align-items: center; */
+  z-index: 13;
+  background-color: black;
+
+  /* width: auto; */
+  top: 85%;
+  height: 15%;
+  min-width: 100%;
+
+
+}
+
+footer p{
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 100;
+  text-align: center;
+  padding-left: 60%;
 }
