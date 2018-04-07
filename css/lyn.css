@@ -1,3 +1,21 @@
+.project-process-flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 77%;
+  flex-direction: row;
+
+
+}
+
+.process-flex-item{
+  width: 25%;
+}
+
+.process{
+  max-width: 100%;
+}
+
+
 .see-next h3{
 color: white;
 text-align: right;
@@ -27,13 +45,13 @@ top: 5%;
 
 }
 
-.project-one-description-flex-item img{
+.project-image{
   width: auto;
-  max-width: 24rem;
+  max-width: 14rem;
 }
 
 @media (min-width:52rem) {
-  .project-one-description-flex-item img{
+  .project-image{
     width: auto;
     max-width: 25rem;
   }

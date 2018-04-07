@@ -98,9 +98,13 @@
   align-items: center;
 }
 
+.name h1{
+  font-family: 'Fjalla One';
+}
+
 .name a{
   justify-content: space-around;
-  top:88%;
+  top:230%;
   left: 13%;
   z-index: 7;
   position: absolute;
@@ -112,17 +116,28 @@
   color: black;
 }
 
+@media (min-width:42rem) {
+
+  .name a{
+    top: 185%;
+  }
+}
+
 .name h2{
   justify-content: space-around;
   top:55%;
   z-index: 7;
   position: absolute;
   align-items: center;
+  text-align: center;
   font-family: 'Open Sans';
   font-weight: 100;
   font-size: .9rem;
-  min-width: 4rem;
+  min-width: 5rem;
 }
+
+
+
 
 
 
@@ -130,7 +145,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  top:50%;
+  top:49%;
 
   background-color: white;
   min-width: 15rem;
