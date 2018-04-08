@@ -1,10 +1,10 @@
 .project-process-flex-container{
   display: flex;
   flex-wrap: wrap;
-  max-width: 77%;
+  justify-content: flex-start;
+  min-width: 10rem;
   flex-direction: row;
-
-
+  padding-top: 1.5rem;
 }
 
 .process-flex-item{
@@ -13,7 +13,64 @@
 
 .process{
   max-width: 100%;
+
 }
+
+@media (min-width:28.5rem) {
+  .project-process-flex-container{
+    flex-direction: column;
+    width: 10%;
+    max-height: 33rem;
+    padding-top: 2.7rem;
+    align-items: center;
+  }
+
+  .process{
+    min-width: 5rem;
+
+  }
+
+  .project-image{
+    max-height: 35rem;
+  }
+}
+
+@media (min-width:42rem) {
+.project-process-flex-container{
+  min-width:22rem;
+  margin-right: 4.75rem;
+
+
+}
+
+.process{
+  margin: 2rem;
+  min-width: 7rem;
+}
+
+}
+
+/* @media (min-width:43rem) {
+.project-process-flex-container{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 18rem;
+}
+
+.process{
+  min-width: 7rem;
+}
+} */
+
+
+/* .process-flex-item{
+  width: 25%;
+}
+
+.process{
+  max-width: 100%;
+} */
 
 
 .see-next h3{
@@ -37,6 +94,7 @@ top: 5%;
 .project-one-description-flex-item{
 
   margin-top: 5%;
+  display: flex;
   position: relative;
   z-index: 2;
   overflow: visible;
@@ -47,7 +105,7 @@ top: 5%;
 
 .project-image{
   width: auto;
-  max-width: 14rem;
+  max-height: 23rem;
 }
 
 @media (min-width:52rem) {

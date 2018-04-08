@@ -2,7 +2,9 @@
 .projects-photo-flex-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  /* justify-content: space-between; */
   top: 2%;
 }
 
