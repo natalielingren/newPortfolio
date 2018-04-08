@@ -328,7 +328,18 @@ footer p{
   color: white;
   font-family: "Open Sans";
   font-weight: 100;
+  font-size: 0.75rem;
   text-align: center;
   padding-top: 1.5rem;
+  max-width: 25rem;
   padding-left: 80%;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 0.75rem;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 100;
+
 }
