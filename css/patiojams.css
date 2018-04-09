@@ -1,5 +1,5 @@
 
-.project-process-flex-container{
+.project-process-flex-container-two{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 @media (min-width:48rem) {
-  .project-process-flex-container{
+  .project-process-flex-container-two{
     flex-direction: column;
     width: 30%;
     max-height: 23rem;
